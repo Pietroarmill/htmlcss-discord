@@ -71,7 +71,7 @@ a{
 }
 
 .btn-small{
-    padding: .8em 1em;
+    padding: .6em .8em;
 }
 
 
@@ -82,7 +82,7 @@ header{
     background-color: #3361e1;
 }
 
-header #logo{
+header .logo{
     height: 40px;
     width: auto;
     vertical-align: middle;
@@ -139,6 +139,7 @@ nav .col-center li a{
 }
 
 .banner-text h1{
+    margin-bottom: 1.1em;
     font-size: 3em;
 }
 .banner-text p{
@@ -181,6 +182,7 @@ main .section-content{
 
 /* Large section */
 .large-section{
+    margin-top: 8em;
     text-align: center;
     padding-bottom: 8em;
 }
@@ -203,5 +205,75 @@ main .section-content{
     padding: 1.5em 2.5em;
 }
 
+.bg-stars h3{
+    font-size: 1.6em;
+}
 
+/* FOOTER */
+/* footer top */
+footer{
+    height: 600px;
+    background-color: #23272A;
+}
 
+.footer-top{
+    border-bottom: 1px solid #7289DA;
+}
+/* left column */
+.col-support{
+    float: left;
+    width: 36%;
+    padding: 4em 5em 2em .5em;
+}
+
+.language img{
+    width: 20px;
+}
+
+.col-support h3{
+    color: #7289DA;
+    font-size: 2em;
+    margin-bottom: .6em;
+}
+
+.col-list a,
+.col-support .language span{
+    color: white;
+}
+
+.col-support .language{
+    margin-bottom: .7em;
+}
+
+.col-support .social a{
+    font-size: 1.3em;
+    color: white;
+    padding: .3em;
+}
+
+/* right columns */
+.col-list{
+    float: left;
+    width: 16%;
+    padding: 4em 1em 1.5em 0;
+}
+
+.col-list li{
+    line-height: 1.9em;
+}
+
+.col-list ul li:first-child {
+    color:#7289DA;
+    font-weight: bold;
+}
+
+/* footer bottom */
+.col-left{
+    float: left;
+    padding: 2em 0 0 .5em;
+}
+
+.footer-bottom .col-right{
+    float: right;
+    margin: 2.5em 1em 0 0;
+}
