@@ -6,6 +6,7 @@
 }
 
 html {
+    font-size: 100%;
     font-family: "Whitney", sans-serif;
 }
 
@@ -33,6 +34,35 @@ a{
     margin: 0 auto;
 }
 
+.text{
+    line-height: 1.6em;
+    font-weight: 600;
+}
+
+/* buttons */
+.btn{
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.btn-white{
+    color: black;
+    background-color: white;
+}
+
+.btn-black{
+    color: white;
+    background-color: black;
+}
+
+.btn-large {
+    padding: .9em 1.6em
+}
+
+.btn-small{
+    padding: .8em 1em;
+}
+
 /* HEADER */
 /* nav */
 header{
@@ -40,9 +70,16 @@ header{
     background-color: #3161E0;
 }
 
+header #logo{
+    height: 40px;
+    width: auto;
+    vertical-align: middle;
+}
+
 nav{
     line-height: 70px;
 }
+
 nav .col-center li{
     display: inline-block;
     margin-left: 2em;
@@ -66,35 +103,61 @@ nav .col-center li a{
     text-align: center;
 }
 
-.col-logo img{
-    height: 40px;
-    width: auto;
-    vertical-align: middle;
-}
-
 .col-btn{
     text-align: right;
     text
 }
 
-.btn{
-    border-radius: 20px;
-    font-weight: bold;
+
+/* MAIN */
+/* banner */
+.banner{
+    padding: 6em 0em;
+    background-image: url(../img/jumbo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
 }
 
-.btn-white{
-    color: black;
-    background-color: white;
+.banner-text{
+    width: 50%;
+    margin: 0 auto;
 }
 
-.btn-black{
-
+.banner-text h1{
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+.banner-text p{
+    margin-bottom: 2em;
 }
 
-.btn-large {
-
+.banner .btn-black{
+    margin-left: em;
 }
 
-.btn-small{
-    padding: .8em 1em;
+/* SECTION */
+
+.section-content{
+    padding: 5em 0;
+}
+
+.section-col-img{
+    height: 400px;
+    width: 60%;
+    float: left;
+}
+
+.section-col-text{
+    height: 400px;
+    width: 40%;
+    padding: 0 2em;
+    float: left;
+}
+
+.section-col-text h2{
+    font-size: 2.5em;
+    margin-bottom: 0.8em;
 }
