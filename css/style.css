@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body{
+    min-width: 700px;
+}
+
 html {
     font-size: 100%;
     font-family: "Whitney", sans-serif;
@@ -79,7 +83,7 @@ a{
 /* nav */
 header{
     height: 70px;
-    background-color: #3361e1;
+    background-color: #255ee9;
 }
 
 header .logo{
